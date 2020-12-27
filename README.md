@@ -40,7 +40,9 @@ Benchmark multi-run vs. just running once.
 {:statusCode=>200, :body=>"{\"source\":\"Message0000149001\",\"digest\":\"ROWcGPDpcyeSIzWlyXTFQk7+dYS8OoF6sHFuEXQBiosKMknaaH8xcb0nXhmIe5Lp1bXcCV1+WCdsQlmzo9neWA==\",\"times\":0.4104339999612421}"}
 ```
 ### 3.0.0
+```ruby
 {:statusCode=>200, :body=>"{\"source\":\"Message0000149001\",\"digest\":\"ROWcGPDpcyeSIzWlyXTFQk7+dYS8OoF6sHFuEXQBiosKMknaaH8xcb0nXhmIe5Lp1bXcCV1+WCdsQlmzo9neWA==\",\"times\":0.3773950000759214}"}
+```
 
 ## 1.8 GHz Dual-Core Intel Core i5 MacBook Air (13-inch, Mid 2012) on macOS 10.15.6
 ### 2.7.2
