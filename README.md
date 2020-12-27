@@ -6,10 +6,11 @@ Trivial benchmarking for random environments.
   "statusCode": 200,
   "body": "{\"source\":\"Message0000149001\",\"digest\":\"ROWcGPDpcyeSIzWlyXTFQk7+dYS8OoF6sHFuEXQBiosKMknaaH8xcb0nXhmIe5Lp1bXcCV1+WCdsQlmzo9neWA==\",\"times\":6.536189388999901}"
 }
+
 # Lambda @ 1024MB
 {
   "statusCode": 200,
-  "body": "{\"source\":\"Message0000149001\",\"digest\":\"ROWcGPDpcyeSIzWlyXTFQk7+dYS8OoF6sHFuEXQBiosKMknaaH8xcb0nXhmIe5Lp1bXcCV1+WCdsQlmzo9neWA==\",\"times\":6.536189388999901}"
+  "body": "{\"source\":\"Message0000149001\",\"digest\":\"ROWcGPDpcyeSIzWlyXTFQk7+dYS8OoF6sHFuEXQBiosKMknaaH8xcb0nXhmIe5Lp1bXcCV1+WCdsQlmzo9neWA==\",\"times\":0.7233408910001344}"
 }
 
 # Lambda @ 10240MB
