@@ -6,7 +6,7 @@ require 'digest'
 
 INITIAL='Message'
 
-def lambda_handler(event:, context:)
+def bench_single
     times = Benchmark.realtime do
       counter = 0
       @source = ''
@@ -19,7 +19,10 @@ def lambda_handler(event:, context:)
       end
 
     end
-    { statusCode: 200, body: JSON.generate({source: @source, digest: @digest, times: times}) }
+    {source: @source, digest: @digest, times: times}
 end
 
+def lambda_handler(event:, context:)
+  { statusCode: 200, body: JSON.generate(bench_single) }
+end
 p lambda_handler(event: 'e', context: 'c')
