@@ -6,8 +6,8 @@ require 'digest'
 
 INITIAL='Message'
 PREHASHFORMAT="#{INITIAL}%010d"
-THREADS=ENV['THREADS'] || 4
-THREADITERATIONS=ENV['THREADITERATIONS'] || 20000
+THREADS=(ENV['THREADS'] || 4).to_i
+THREADITERATIONS=(ENV['THREADITERATIONS'] || 20000).to_i
 SINGLE_TEST_VALUE='ROW'
 MULTI_TEST_VALUE='ROW'
 
@@ -41,14 +41,14 @@ def check_hashes(start, iterations)
 end
 
 def bench_multithread
-  result = nil 
+  result = nil
   run_time = Benchmark.realtime do
-    counter = 0 
+    counter = 0
     result = catch(:done) do
-      loop do 
+      loop do
         counter
-        threads = (0...THREADS).map do |i| 
-          t = Thread.new do 
+        threads = (0...THREADS).map do |i|
+          t = Thread.new do
             Thread.current[:output] = check_hashes(counter + (THREADITERATIONS*i), THREADITERATIONS)
             if Thread.current[:output]
               threads.each { |t| t.kill unless t == Thread.current }
@@ -57,7 +57,7 @@ def bench_multithread
           t
         end
         counter += THREADS * THREADITERATIONS
-        threads.each do |t| 
+        threads.each do |t|
           t.join
           unless t[:output].nil?
             throw :done, t[:output]
