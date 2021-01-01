@@ -21,5 +21,3 @@ Y,Late 2011 Mac Intel(R) Core i5 @ 2.4 GHz on macOS High Sierra,,2.7.2,0.9048649
 Y,Late 2011 Mac Intel(R) Core i5 @ 2.4 GHz on macOS High Sierra,,3.0.0,1.057037999999011,0.38252099999954225,ROW/4/20000
 Y,"NUC Intel(R) Core(TM) i3-5010U CPU @ 2.10GHz, 2100 Mhz, 2 Core(s), 4 Logical Processor(s)",,2.7.2,0.7899723999944399,0.2329814999975497,ROW/4/20000
 Y,"Samsung 303C",,2.7.2,3.168534210000189,0.8593769579999844,ROW/4/20000
-{:statusCode=>200, :body=>"{\"source\":\"Message0000149001\",\"digest\":\"ROWcGPDpcyeSIzWlyXTFQk7+dYS8OoF6sHFuEXQBiosKMknaaH8xcb0nXhmIe5Lp1bXcCV1+WCdsQlmzo9neWA==\",\"time\":3.168534210000189}"}
-{:source=>"Message0000149001", :digest=>"ROWcGPDpcyeSIzWlyXTFQk7+dYS8OoF6sHFuEXQBiosKMknaaH8xcb0nXhmIe5Lp1bXcCV1+WCdsQlmzo9neWA==", :time=>0.8593769579999844}
