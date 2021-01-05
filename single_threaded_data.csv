@@ -1,0 +1,25 @@
+system,pricing,version,result
+9750H mac,,3.0.0,0.344619
+9750H mac,,2.7.1,0.356583
+9750H mac,,2.7.0,0.350059
+"3900X (12, 32 GiB)",,2.7.2,0.367528
+AWS Lambda @ 10240MB,,,0.389874499
+t3.nano (2 vCPU/0.5 GiB),$0.0052/hour,2.7.0,0.40454927
+"Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz, 2712 Mhz, 4 Core(s), 4 Logical Processor(s)",,2.7.2,0.4326898
+t4g.nano (2 vCPU/0.5 GiB),$0.0042/hour,2.7.0,0.482845551
+t3a.nano (2 vCPU/0.5 GiB),$0.0047/hour,2.7.0,0.551661366
+Linode,,2.7.1,0.673772523
+AWS Lambda @ 1024MB,,,0.694438218
+"Scaleway DEV1-S (2 x86, 64bit, 2GB)",0.01 Euro/hour,2.7.0,0.746944434
+"NUC Intel(R) Core(TM) i3-5010U CPU @ 2.10GHz, 2100 Mhz, 2 Core(s), 4 Logical Processor(s)",,2.7.2,0.7899724
+"Scaleway GP1-XS (4 x86, 64bit, 16GB)",0.084 Euro/hour,2.7.0,0.812311923
+Late 2011 Mac Intel(R) Core i5 @ 2.4 GHz on macOS High Sierra,,2.7.2,0.904865
+9750H,,3.0.0,1.057038
+Late 2011 Mac Intel(R) Core i5 @ 2.4 GHz on macOS High Sierra,,3.0.0,1.057038
+Mid 2009 Mac Intel(R) Core(TM) 2 Duo CPU P7550 @ 2.26GHz on Manjaro,,2.7.1,1.143783375
+Samsung 303C,,2.7.2,3.16853421
+Pi 3 Model B 1 GB (Ubuntu 20.04 LTS),,2.5.5,3.324672374
+Pi 3 Model B 1 GB (Raspbian 10 Buster),,2.5.5,4.065682554
+Pi 3 Model B 1 GB (Raspbian 10 Buster),,2.7.2,4.53079041
+AWS Lambda @ 128MB,,,6.432826346
+Pi Zero W,,2.5.1,20.82450541
