@@ -1,0 +1,23 @@
+system,pricing,version,multi result,params
+9750H mac,,truffleruby-20.3.0,5.456447524,BORK/12/20000
+9750H mac,,3.0.0,0.078991,ROW/4/20000
+9750H mac,,2.7.1,16.636732,BORK/12/20000
+9750H mac,,2.7.1,0.050605,ROW/4/20000
+9750H mac,,2.7.0,16.68886,BORK/12/20000
+9750H mac,,2.7.0,0.051397,ROW/4/20000
+"3900X (12, 32 GiB)",,2.7.2,0.079102,ROW/12/10000
+t3.nano (2 vCPU/0.5 GiB),$0.0052/hour,2.7.0,,
+"Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz, 2712 Mhz, 4 Core(s), 4 Logical Processor(s)",,2.7.2,0.1289071,ROW/4/20000
+t4g.nano (2 vCPU/0.5 GiB),$0.0042/hour,2.7.0,,
+t3a.nano (2 vCPU/0.5 GiB),$0.0047/hour,2.7.0,,
+Linode,,2.7.1,,
+"NUC Intel(R) Core(TM) i3-5010U CPU @ 2.10GHz, 2100 Mhz, 2 Core(s), 4 Logical Processor(s)",,2.7.2,0.2329815,ROW/4/20000
+9750H,,3.0.0,0.382521,ROW/4/20000
+Late 2011 Mac Intel(R) Core i5 @ 2.4 GHz on macOS High Sierra,,3.0.0,0.382521,ROW/4/20000
+Samsung 303C,,2.7.2,0.859376958,ROW/4/20000
+Pi 3 Model B 1 GB (Ubuntu 20.04 LTS),,2.5.5,1.149214847,ROW/4/20000
+Pi 3 Model B 1 GB (Raspbian 10 Buster),,2.5.5,1.294839036,ROW/4/20000
+Pi 3 Model B 1 GB (Raspbian 10 Buster),,2.7.2,1.907381903,ROW/4/20000
+Pi Zero W,,2.5.1,,
+"Intel(R) Celeron(R) CPU N2830 @ 2.16 GHz",,2.7.2,1.1553200939999897,ROW/4/20000
+"AMD E-300 APU with Radeon(tm) HD Graphics",,2.7.2,1.5660414809999565,ROW/4/20000
