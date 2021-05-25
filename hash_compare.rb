@@ -45,18 +45,10 @@ hash_search='aec7c2edfdb560ec9e605a5b2354396e'
 password='Orange1'
 
 
-# there are 340 undecillion hashes in 128-bit space
-# but the permutations cover only 75 billion
 run_time = Benchmark.realtime do
-    enumerator = charset.permutation(7)
-    counter=0
-
-    loop do
-        value_to_hash = enumerator.next.join
-        counter += 1
-        break if Digest::MD5.hexdigest(value_to_hash) == hash_search
+    (2**31 - 1).times do |i|
+        Digest::MD5.hexdigest("%10d" % i)
     end
-    puts counter
 end
 
 puts run_time
